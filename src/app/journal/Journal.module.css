@@ -1,13 +1,13 @@
 .page {
   padding-top: var(--site-header-offset);
   min-height: 70vh;
-  background: #FFF5F6;
-  color: #4A0E1A;
+  background: #FFFFFF;
+  color: #242020;
 }
 
 .subnav {
-  border-bottom: 1px solid #F8C5CF;
-  background: #FFFFFF;
+  border-bottom: 1px solid #E8E0DC;
+background: #FFFFFF;
 }
 
 .subnavInner {
@@ -21,7 +21,7 @@
 }
 
 .subnav a {
-  color: #4A0E1A;
+  color: #242020;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 16px;
   font-weight: 400;
@@ -29,7 +29,7 @@
 }
 
 .subnav a:hover {
-  color: #B01030;
+  color: #9F1D2D;
 }
 
 .intro {
@@ -44,7 +44,7 @@
   font-size: 0.72rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #B01030;
+  color: #9F1D2D;
 }
 
 .intro h1 {
@@ -64,7 +64,7 @@
   font-weight: 400;
   font-style: normal;
   line-height: 1.7;
-  color: #4A0E1A;
+  color: #242020;
 }
 
 @media (max-width: 700px) {

@@ -2,10 +2,10 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  background: #FFF5F6;
-  color: #4A0E1A;
+  background: #FFFFFF;
+  color: #242020;
   overflow: hidden;
-  border: 0.5px solid rgba(196, 30, 58, 0.45);
+  border: 0.5px solid rgba(159, 29, 45, 0.45);
   scroll-margin-top: calc(var(--site-header-offset) + 12px);
   padding: 0.7rem;
 }
@@ -38,12 +38,12 @@
 .panel {
   display: grid;
   align-items: center;
-  background-color: #FFF5F6;
+  background-color: #FFFFFF;
   background-image: url("/assets/heritage/generations-panel-floral.jpg");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: cover;
-  border-top: 0.5px solid rgba(196, 30, 58, 0.45);
+  border-top: 0.5px solid rgba(159, 29, 45, 0.45);
 }
 
 .copy {
@@ -64,7 +64,7 @@
   letter-spacing: 0.28em !important;
   line-height: 1.4 !important;
   text-transform: uppercase;
-  color: #4A0E1A;
+  color: #242020;
 }
 
 .eyebrow::after {
@@ -73,7 +73,7 @@
   width: 2.75rem;
   height: 1px;
   margin-top: 0.85rem;
-  background: #C41E3A;
+  background: #B32135;
 }
 
 .title {
@@ -83,7 +83,7 @@
   font-size: clamp(2rem, 7vw, 2.65rem) !important;
   line-height: 1.16 !important;
   letter-spacing: -0.02em !important;
-  color: #4A0E1A;
+  color: #242020;
 }
 
 .lead {
@@ -94,7 +94,7 @@
   font-weight: 400 !important;
   line-height: 1.75 !important;
   letter-spacing: 0.01em !important;
-  color: #4A0E1A;
+  color: #242020;
 }
 
 a.cta {
@@ -107,7 +107,7 @@ a.cta {
   padding: 13px 22px;
   border: 0;
   border-radius: 999px;
-  background: #B01030;
+  background: #9F1D2D;
   font-family: var(--font-dm), "DM Sans", sans-serif !important;
   font-size: 0.68rem !important;
   font-weight: 500 !important;
@@ -121,12 +121,12 @@ a.cta {
 
 a.cta:hover {
   gap: 0.7rem;
-  background: #8B0C24;
+  background: #7A1623;
   color: #FFFFFF !important;
 }
 
 a.cta:focus-visible {
-  outline: 2px solid #4A0E1A;
+  outline: 2px solid #242020;
   outline-offset: 3px;
 }
 
@@ -139,7 +139,7 @@ a.cta:focus-visible {
 
   .panel {
     border-top: 0;
-    border-left: 0.5px solid rgba(196, 30, 58, 0.45);
+    border-left: 0.5px solid rgba(159, 29, 45, 0.45);
   }
 
   .copy {

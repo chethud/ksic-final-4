@@ -21,6 +21,7 @@ export interface Translations {
   heroPoetic2: string;
   heroPoetic3: string;
   heroExploreBtn: string;
+  heroSecondaryBtn: string;
   gandaberundaTitle: string;
   gandaberundaSubtitle: string;
 
@@ -115,6 +116,7 @@ const TRANSLATIONS: Record<Language, Translations> = {
     heroPoetic2: "From the looms of Mysuru, a silk made to be worn and remembered.",
     heroPoetic3: "",
     heroExploreBtn: "DISCOVER THE COLLECTION",
+    heroSecondaryBtn: "OUR STORY",
     gandaberundaTitle: "GANDA BERUNDA",
     gandaberundaSubtitle: "A SYMBOL OF ROYALTY",
 
@@ -200,6 +202,7 @@ const TRANSLATIONS: Record<Language, Translations> = {
     heroPoetic2: "ಮೈಸೂರಿನ ಮಗ್ಗಗಳಿಂದ, ಧರಿಸಲು ಮತ್ತು ನೆನಪಿನಲ್ಲಿಡಲು ನೇಯ್ದ ರೇಷ್ಮೆ.",
     heroPoetic3: "",
     heroExploreBtn: "ಸಂಗ್ರಹವನ್ನು ಅನ್ವೇಷಿಸಿ",
+    heroSecondaryBtn: "ನಮ್ಮ ಕಥೆ",
     gandaberundaTitle: "ಗಂಡಭೇರುಂಡ",
     gandaberundaSubtitle: "ರಾಜಪರಂಪರೆಯ ಅಮರ ಲಾಂಛನ",
 

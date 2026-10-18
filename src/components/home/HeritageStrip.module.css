@@ -1,9 +1,9 @@
 .strip {
   position: relative;
-  background: #FFF5F6;
-  border-top: 1px solid #F8C5CF;
-  border-bottom: 1px solid #F8C5CF;
-  color: #4A0E1A;
+  background: #FFFFFF;
+  border-top: 1px solid #E8E0DC;
+  border-bottom: 1px solid #E8E0DC;
+  color: #242020;
 }
 
 .wrap {
@@ -26,15 +26,15 @@
 }
 
 .item + .item {
-  border-left: 1px solid #F8C5CF;
+  border-left: 1px solid #E8E0DC;
 }
 
 .badge {
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  background: #FFE4E8;
-  color: #A01830;
+  background: #FAF8F5;
+  color: #9F1D2D;
   display: grid;
   place-items: center;
   flex-shrink: 0;
@@ -42,7 +42,7 @@
 }
 
 .item:hover .badge {
-  background: #B01030;
+  background: #9F1D2D;
   color: #FFFFFF;
   transform: rotate(-8deg);
 }
@@ -75,7 +75,7 @@
   }
 
   .item:nth-child(3) {
-    border-left: 1px solid #F8C5CF;
+    border-left: 1px solid #E8E0DC;
   }
 
   .badge {

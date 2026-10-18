@@ -1,14 +1,14 @@
 .page {
-  --pdp-burgundy: #4A0E1A;
-  --pdp-gold: #C41E3A;
-  --pdp-ink: #4A0E1A;
+  --pdp-burgundy: #242020;
+  --pdp-gold: #B32135;
+  --pdp-ink: #242020;
   --pdp-ivory: #FFFFFF;
   padding-top: var(--site-header-offset);
   color: var(--pdp-ink);
   background-color: var(--pdp-ivory);
   background-image:
-    radial-gradient(ellipse 70% 42% at 100% 0%, rgba(196, 30, 58, 0.08), transparent 58%),
-    linear-gradient(165deg, rgba(255, 255, 255, 0.7), rgba(255, 196, 206, 0) 42%);
+    radial-gradient(ellipse 70% 42% at 100% 0%, rgba(159, 29, 45, 0.08), transparent 58%),
+    linear-gradient(165deg, rgba(255, 255, 255, 0.7), rgba(159, 29, 45, 0) 42%);
 }
 
 .layout {
@@ -37,7 +37,7 @@
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .crumbs a {
@@ -49,7 +49,7 @@
 }
 
 .crumbs a:hover {
-  color: #4A0E1A;
+  color: #242020;
 }
 
 .crumbCurrent {
@@ -62,8 +62,8 @@
   aspect-ratio: 5 / 4.15;
   border-radius: 18px;
   overflow: hidden;
-  background: #FFE4E8;
-  box-shadow: 0 16px 40px rgba(74, 14, 26, 0.08);
+  background: #FFFFFF;
+  box-shadow: 0 16px 40px rgba(36, 32, 32, 0.08);
 }
 
 .heroImage,
@@ -136,11 +136,11 @@
   height: 42px;
   margin: 0;
   padding: 0;
-  border: 1px solid rgba(196, 30, 58, 0.45);
+  border: 1px solid rgba(159, 29, 45, 0.45);
   border-radius: 999px;
-  background: rgba(255, 245, 246, 0.94);
+  background: rgba(255, 255, 255, 0.94);
   color: var(--pdp-ink);
-  box-shadow: 0 6px 16px rgba(74, 14, 26, 0.08);
+  box-shadow: 0 6px 16px rgba(36, 32, 32, 0.08);
   cursor: pointer;
   transform: translateY(-50%);
 }
@@ -172,7 +172,7 @@
   padding: 0;
   border: 1.5px solid transparent;
   border-radius: 10px;
-  background: #FFE4E8;
+  background: #FFFFFF;
   overflow: hidden;
   cursor: pointer;
 }
@@ -217,14 +217,14 @@
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -0.02em;
-  color: #4A0E1A;
+  color: #242020;
 }
 
 .kannada {
   margin: 10px 0 0;
   font-family: var(--font-kannada), serif;
   font-size: 1.05rem;
-  color: #A01830;
+  color: #9F1D2D;
 }
 
 .ornament {
@@ -255,7 +255,7 @@
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .swatchRow {
@@ -270,7 +270,7 @@
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.78rem;
   letter-spacing: 0.04em;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .swatch {
@@ -280,12 +280,12 @@
   padding: 0;
   border: 2px solid #FFFFFF;
   border-radius: 999px;
-  box-shadow: 0 0 0 1px rgba(74, 14, 26, 0.28);
+  box-shadow: 0 0 0 1px rgba(36, 32, 32, 0.28);
   cursor: pointer;
 }
 
 .swatch[aria-checked="true"] {
-  box-shadow: 0 0 0 2px #4A0E1A;
+  box-shadow: 0 0 0 2px #242020;
 }
 
 .quantityBlock {
@@ -298,9 +298,9 @@
   min-width: 132px;
   height: 42px;
   padding: 0 6px;
-  border: 1px solid rgba(74, 14, 26, 0.12);
+  border: 1px solid rgba(36, 32, 32, 0.12);
   border-radius: 999px;
-  background: rgba(255, 245, 246, 0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .stepper button,
@@ -328,11 +328,11 @@
 }
 
 .stepper button:hover:not(:disabled) {
-  background: rgba(74, 14, 26, 0.06);
+  background: rgba(36, 32, 32, 0.06);
 }
 
 .stepper button:disabled {
-  color: #6E2A38;
+  color: #77716E;
   cursor: not-allowed;
 }
 
@@ -358,8 +358,8 @@
   justify-content: space-between;
   gap: 12px;
   margin-top: 6px;
-  border: 1px solid rgba(74, 14, 26, 0.16);
-  background: #FFE4E8;
+  border: 1px solid rgba(36, 32, 32, 0.16);
+  background: #FFFFFF;
   color: var(--pdp-burgundy);
   cursor: pointer;
 }
@@ -370,7 +370,7 @@
 }
 
 .statusPill:hover {
-  background: #FFE4E8;
+  background: #FFFFFF;
 }
 
 .chevronOpen {
@@ -387,21 +387,21 @@
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.86rem;
   line-height: 1.5;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .bookPill {
   gap: 8px;
   border: 0;
-  background: #F8C5CF;
-  color: #4A0E1A;
+  background: #9F1D2D;
+  color: #242020;
   cursor: not-allowed;
 }
 
 .bookPill:disabled {
   opacity: 1;
-  background: #F8C5CF;
-  color: #4A0E1A;
+  background: #9F1D2D;
+  color: #242020;
   font-family: "DM Sans", sans-serif !important;
   font-size: 0.68rem !important;
   font-weight: 600 !important;
@@ -412,7 +412,7 @@
 
 .bookPill:not(:disabled) {
   background: var(--pdp-burgundy);
-  color: #FFF5F6;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -420,13 +420,13 @@
   position: relative;
   justify-content: center;
   border: 1px solid var(--pdp-burgundy);
-  background: #FFF5F6;
+  background: #FFFFFF;
   color: var(--pdp-burgundy);
   cursor: pointer;
 }
 
 .enquirePill:hover {
-  background: #FFF5F6;
+  background: #FFFFFF;
 }
 
 .enquireArrow {
@@ -438,7 +438,7 @@
   height: 36px;
   border-radius: 999px;
   background: var(--pdp-burgundy);
-  color: #FFF5F6;
+  color: #FFFFFF;
   transition: transform 220ms ease;
 }
 
@@ -451,11 +451,11 @@
 }
 
 .accItem {
-  border-top: 1px solid rgba(196, 30, 58, 0.45);
+  border-top: 1px solid rgba(159, 29, 45, 0.45);
 }
 
 .accItem:last-child {
-  border-bottom: 1px solid rgba(196, 30, 58, 0.45);
+  border-bottom: 1px solid rgba(159, 29, 45, 0.45);
 }
 
 .accTrigger {
@@ -466,7 +466,7 @@
   padding: 13px 2px;
   border: 0;
   background: transparent;
-  color: #4A0E1A;
+  color: #242020;
   cursor: pointer;
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.7rem;
@@ -483,7 +483,7 @@
 .accLead,
 .accLeadOpen {
   flex: 0 0 auto;
-  color: #4A0E1A;
+  color: #242020;
   transition: transform 220ms ease;
 }
 
@@ -496,7 +496,7 @@
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.9rem;
   line-height: 1.55;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .accPanel p {
@@ -515,7 +515,7 @@
   display: grid;
   place-items: center;
   padding: 20px;
-  background: rgba(42, 8, 16, 0.55);
+  background: rgba(122, 22, 35, 0.55);
 }
 
 .modal {
@@ -523,8 +523,8 @@
   max-height: min(90vh, 760px);
   overflow: auto;
   padding: 24px;
-  background: #FFF5F6;
-  border: 1px solid rgba(196, 30, 58, 0.4);
+  background: #FFFFFF;
+  border: 1px solid rgba(159, 29, 45, 0.4);
   border-radius: 20px;
 }
 
@@ -549,7 +549,7 @@
   border-radius: 999px;
   background: transparent;
   cursor: pointer;
-  color: #4A0E1A;
+  color: #242020;
 }
 
 .modalProduct {
@@ -562,7 +562,7 @@
 }
 
 .modalProduct span {
-  color: #6E2A38;
+  color: #77716E;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 0.72rem;
@@ -581,17 +581,17 @@
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .form input,
 .form textarea {
   width: 100%;
   padding: 12px 14px;
-  border: 1px solid rgba(74, 14, 26, 0.16);
+  border: 1px solid rgba(36, 32, 32, 0.16);
   border-radius: 12px;
   background: #FFFFFF;
-  color: #4A0E1A;
+  color: #242020;
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.95rem;
   letter-spacing: 0;
@@ -602,19 +602,19 @@
 .submitPill {
   border: 1px solid var(--pdp-burgundy);
   background: var(--pdp-burgundy);
-  color: #FFF5F6;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
 .submitPill:hover {
-  background: #8B0C24;
+  background: #7A1623;
 }
 
 .optional {
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: none;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .fieldError {
@@ -628,11 +628,11 @@
 .blockedNote {
   margin-top: 16px;
   padding-top: 14px;
-  border-top: 1px solid rgba(196, 30, 58, 0.4);
+  border-top: 1px solid rgba(159, 29, 45, 0.4);
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.88rem;
   line-height: 1.5;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 .blockedNote p {
@@ -645,7 +645,7 @@
 
 .related {
   padding: 8px 0 72px;
-  border-top: 1px solid rgba(196, 30, 58, 0.28);
+  border-top: 1px solid rgba(159, 29, 45, 0.28);
 }
 
 .relatedHead {
@@ -696,7 +696,7 @@
   aspect-ratio: 4 / 5;
   margin-bottom: 12px;
   border-radius: 14px;
-  background: #FFE4E8;
+  background: #FFFFFF;
   overflow: hidden;
 }
 
@@ -722,7 +722,7 @@
   font-size: 0.68rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #6E2A38;
+  color: #77716E;
 }
 
 @media (max-width: 1000px) {

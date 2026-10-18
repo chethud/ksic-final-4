@@ -137,17 +137,17 @@
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 11;
-  border: 1px solid rgba(74, 14, 26, 0.15);
-  background-color: #4A0E1A;
+  border: 1px solid rgba(36, 32, 32, 0.15);
+  background-color: #242020;
   overflow: hidden;
-  box-shadow: 0 10px 28px rgba(74, 14, 26, 0.06);
+  box-shadow: 0 10px 28px rgba(36, 32, 32, 0.06);
 }
 
 .mediaBadge {
   position: absolute;
   bottom: 14px;
   left: 14px;
-  background-color: rgba(42, 8, 16, 0.92);
+  background-color: rgba(122, 22, 35, 0.92);
   padding: 6px 14px;
   color: var(--color-gold-bright);
   font-size: 0.7rem;
@@ -176,7 +176,7 @@
 .metallurgyCard {
   padding: 32px;
   background-color: var(--color-bg-secondary);
-  border: 1px solid rgba(74, 14, 26, 0.12);
+  border: 1px solid rgba(36, 32, 32, 0.12);
 }
 
 @media (max-width: 480px) {
@@ -210,7 +210,7 @@
 .preservationBox {
   padding: 36px;
   background-color: var(--color-bg-secondary);
-  border: 1px solid rgba(74, 14, 26, 0.15);
+  border: 1px solid rgba(36, 32, 32, 0.15);
 }
 
 @media (max-width: 480px) {

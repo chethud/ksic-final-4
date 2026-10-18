@@ -45,7 +45,7 @@
 }
 
 .hubItem {
-  border: 1px solid rgba(74, 14, 26, 0.12);
+  border: 1px solid rgba(36, 32, 32, 0.12);
   background-color: var(--color-bg-paper);
   padding: 20px 24px;
   cursor: pointer;
@@ -58,14 +58,14 @@
 
 .hubItem:hover {
   border-color: var(--color-burgundy);
-  background-color: #FFF5F6;
+  background-color: #FFFFFF;
 }
 
 .hubItemActive {
   border-color: var(--color-burgundy);
   border-left: 5px solid var(--color-burgundy);
-  background-color: #FFE4E8;
-  box-shadow: 0 4px 16px rgba(74, 14, 26, 0.06);
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(36, 32, 32, 0.06);
 }
 
 .hubHeader {
@@ -95,7 +95,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-burgundy);
-  background-color: rgba(74, 14, 26, 0.08);
+  background-color: rgba(36, 32, 32, 0.08);
   padding: 4px 10px;
   border-radius: 2px;
   white-space: nowrap;
@@ -114,7 +114,7 @@
   gap: 8px;
   margin-top: 10px;
   padding-top: 12px;
-  border-top: 1px dashed rgba(74, 14, 26, 0.2);
+  border-top: 1px dashed rgba(36, 32, 32, 0.2);
 }
 
 @media (max-width: 600px) {
@@ -128,7 +128,7 @@
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 6px 10px;
-  border: 1px solid rgba(74, 14, 26, 0.06);
+  border: 1px solid rgba(36, 32, 32, 0.06);
   border-radius: 2px;
 }
 
@@ -150,8 +150,8 @@
 /* Map Frame */
 .mapFrame {
   position: relative;
-  background-color: #FFE4E8;
-  border: 1px solid rgba(74, 14, 26, 0.15);
+  background-color: #FFFFFF;
+  border: 1px solid rgba(36, 32, 32, 0.15);
   padding: clamp(20px, 3.5vw, 32px);
   display: flex;
   flex-direction: column;
@@ -175,7 +175,7 @@
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #A01830;
+  color: #9F1D2D;
 }
 
 .mapStateSeal {
@@ -201,13 +201,13 @@
   width: 100%;
   height: auto;
   max-height: 560px;
-  filter: drop-shadow(0 8px 24px rgba(74, 14, 26, 0.06));
+  filter: drop-shadow(0 8px 24px rgba(36, 32, 32, 0.06));
 }
 
 /* District Boundaries */
 .districtsGroup {
-  fill: #F8C5CF;
-  stroke: #C41E3A;
+  fill: #9F1D2D;
+  stroke: #B32135;
   stroke-width: 2.2;
 }
 
@@ -216,13 +216,13 @@
 }
 
 .districtPath:hover {
-  fill: #F8C5CF;
+  fill: #9F1D2D;
   stroke-width: 3.5;
 }
 
 /* Cauvery River Vector */
 .cauveryRiverPath {
-  stroke: #C41E3A;
+  stroke: #B32135;
   stroke-width: 3.5;
   stroke-dasharray: 8 6;
   fill: none;
@@ -230,7 +230,7 @@
 }
 
 .riverText {
-  fill: #A01830;
+  fill: #9F1D2D;
   font-size: 26px;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -240,15 +240,15 @@
 
 /* Hub Pins & Ripples */
 .markerRippleOuter {
-  fill: rgba(74, 14, 26, 0.12);
-  stroke: #4A0E1A;
+  fill: rgba(36, 32, 32, 0.12);
+  stroke: #242020;
   stroke-width: 2;
   animation: ripplePulse 2.8s infinite ease-out;
 }
 
 .markerRippleInner {
-  fill: rgba(74, 14, 26, 0.22);
-  stroke: #4A0E1A;
+  fill: rgba(36, 32, 32, 0.22);
+  stroke: #242020;
   stroke-width: 2.5;
 }
 
@@ -270,15 +270,15 @@
 }
 
 .markerDotActive {
-  fill: #4A0E1A;
+  fill: #242020;
 }
 
 .markerDotInactive {
-  fill: #A01830;
+  fill: #9F1D2D;
 }
 
 .hubMarkerGroup:hover .markerDot {
-  fill: #4A0E1A;
+  fill: #242020;
   transform: scale(1.1);
 }
 
@@ -290,12 +290,12 @@
 }
 
 .mapPinLabelActive {
-  fill: #4A0E1A;
+  fill: #242020;
   font-weight: 700;
 }
 
 .mapPinLabelInactive {
-  fill: #4A0E1A;
+  fill: #242020;
   font-weight: 500;
 }
 
@@ -307,7 +307,7 @@
   gap: 8px;
   margin-top: 14px;
   padding-top: 12px;
-  border-top: 1px solid rgba(74, 14, 26, 0.12);
+  border-top: 1px solid rgba(36, 32, 32, 0.12);
   font-size: 0.72rem;
   letter-spacing: 0.06em;
   color: var(--color-text-secondary);

@@ -74,7 +74,7 @@ export const HERITAGE_MILESTONES: HeritageMilestone[] = [
   },
   {
     year: "1980",
-    epoch: "EPOCH 03 · SOVEREIGN STEWARDSHIP",
+    epoch: "SOVEREIGN STEWARDSHIP",
     title: "Karnataka Silk Industries Corporation Incorporated",
     kannadaTitle: "ಕರ್ನಾಟಕ ರೇಷ್ಮೆ ಕೈಗಾರಿಕಾ ನಿಗಮ (KSIC) ರಚನೆ",
     description: "The KSIC note records that the corporation was established in 1980 under the Companies Act, and associates the transition with modernisation supported by the World Bank. In the same year, the Mysore Silk Weaving Factory and the other listed silk units were transferred to KSIC.",
@@ -90,7 +90,7 @@ export const HERITAGE_MILESTONES: HeritageMilestone[] = [
   },
   {
     year: "2005",
-    epoch: "EPOCH 04 · INTELLECTUAL PROPERTY",
+    epoch: "INTELLECTUAL PROPERTY",
     title: "Geographical Indication recorded as GIR-11",
     kannadaTitle: "ಭೌಗೋಳಿಕ ಸೂಚ್ಯಂಕ (GI-11) ಕಾನೂನುಬದ್ಧ ಮಾನ್ಯತೆ",
     description: "The KSIC note states that Mysore Silk was entered in the Geographical Indications register in November 2005 under the Geographical Indications of Goods (Registration and Protection) Act, 1999, with registration number GIR-11. Another account also refers to GI-11 and to 2017. Those dates are not treated here as one settled fact.",
@@ -106,7 +106,7 @@ export const HERITAGE_MILESTONES: HeritageMilestone[] = [
   },
   {
     year: "TODAY",
-    epoch: "EPOCH 06 · LIVING ROYAL LEGACY",
+    epoch: "LIVING ROYAL LEGACY",
     title: "An Unbroken Royal Tradition",
     kannadaTitle: "ಇಂದಿಗೂ ಜೀವಂತ ರಾಜಪರಂಪರೆ",
     description: "Zari is specified as 65% pure silver and 0.65% gold. A Mysore Silk ensemble was worn by Deepika Padukone at the 75th Cannes Film Festival. Madhurya describes the sarees as pure mulberry silk with genuine gold and silver zari, and places the textile in wedding trousseaus, designer collections, and contemporary wardrobes.",

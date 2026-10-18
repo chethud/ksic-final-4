@@ -1,10 +1,10 @@
 .craftSection {
   --mono-ivory: #FFFFFF;
-  --mono-ink: #4A0E1A;
-  --mono-muted: #6E2A38;
-  --mono-burgundy: #4A0E1A;
-  --mono-gold: #C41E3A;
-  --mono-line: #F8C5CF;
+  --mono-ink: #242020;
+  --mono-muted: #77716E;
+  --mono-burgundy: #242020;
+  --mono-gold: #B32135;
+  --mono-line: #9F1D2D;
   background: var(--mono-ivory);
   color: var(--mono-ink);
   padding: 36px 0 40px;
@@ -162,7 +162,7 @@
 }
 
 .roundArrowBtnPrimary:hover:not(:disabled) {
-  background: #8B0C24;
+  background: #7A1623;
   color: #FFFFFF;
 }
 
@@ -258,7 +258,7 @@
 }
 
 .exploreLink:hover {
-  color: #2A0810;
+  color: #7A1623;
 }
 
 .exploreLink:hover svg {
@@ -275,7 +275,7 @@
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 2px;
-  background: #FFE4E8;
+  background: #FFFFFF;
 }
 
 .stageImage {

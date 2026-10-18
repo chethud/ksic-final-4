@@ -17,19 +17,19 @@ export const Hero: React.FC = () => {
       style={{ position: "relative", overflow: "hidden" }}
       aria-label="Official Karnataka Mysore Silk Heritage"
     >
-      {/* Full-bleed still: ivory silk saree with a red and gold zari border */}
+      {/* Full-bleed still: crimson silk saree with a gold zari border */}
       <div className={styles.heroBackground} style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
         <Image
-          src="/assets/heritage/hero-saree.png"
-          alt="Ivory Mysore silk saree with a deep red and gold zari border, draped on stone in warm light"
+          src="/assets/heritage/hero-saree.jpg"
+          alt="Crimson Mysore silk saree with a gold zari border, draped on marble beside a brass vessel"
           fill
           priority
           sizes="(max-width: 900px) 1px, 100vw"
           className={styles.heroBackgroundImageDesktop}
         />
         <Image
-          src="/assets/heritage/hero-saree.png"
-          alt="Ivory Mysore silk saree with a deep red and gold zari border, draped on stone in warm light"
+          src="/assets/heritage/hero-saree.jpg"
+          alt="Crimson Mysore silk saree with a gold zari border, draped on marble beside a brass vessel"
           fill
           priority
           sizes="(max-width: 900px) 100vw, 1px"
@@ -82,6 +82,9 @@ export const Hero: React.FC = () => {
           <Link href="/collection" className={styles.mobileCta}>
             <span>{t.heroExploreBtn}</span>
             <ArrowRight size={14} className={styles.mobileCtaArrow} />
+          </Link>
+          <Link href="/heritage" className={styles.mobileSecondary}>
+            {t.heroSecondaryBtn}
           </Link>
         </div>
       </div>
