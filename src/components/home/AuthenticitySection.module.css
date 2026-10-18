@@ -4,15 +4,15 @@
 }
 
 .certificateBox {
-  border: 1px solid rgba(196, 163, 90, 0.45);
+  border: 1px solid rgba(196, 30, 58, 0.45);
   background-color: var(--color-bg-paper);
   padding: clamp(32px, 6vw, 72px);
   position: relative;
-  box-shadow: 0 20px 50px rgba(58, 46, 36, 0.05);
+  box-shadow: 0 20px 50px rgba(74, 14, 26, 0.05);
 }
 
 .certificateInnerBorder {
-  border: 1px solid rgba(196, 163, 90, 0.2);
+  border: 1px solid rgba(196, 30, 58, 0.2);
   padding: clamp(24px, 4vw, 48px);
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px solid rgba(58, 46, 36, 0.12);
+  border-bottom: 1px solid rgba(74, 14, 26, 0.12);
   padding-bottom: 28px;
   margin-bottom: 40px;
   flex-wrap: wrap;
@@ -89,7 +89,7 @@
   color: var(--color-burgundy);
   border-radius: 0;
   flex-shrink: 0;
-  border: 1px solid rgba(58, 46, 36, 0.2);
+  border: 1px solid rgba(74, 14, 26, 0.2);
 }
 
 .pillarTitle {
@@ -111,7 +111,7 @@
   width: 100%;
   aspect-ratio: 16 / 10;
   overflow: hidden;
-  border: 1px solid rgba(196, 163, 90, 0.35);
+  border: 1px solid rgba(196, 30, 58, 0.35);
   background-color: var(--color-bg-secondary);
 }
 
@@ -129,7 +129,7 @@
   position: absolute;
   bottom: 16px;
   right: 16px;
-  background-color: rgba(24, 19, 15, 0.88);
+  background-color: rgba(42, 8, 16, 0.88);
   backdrop-filter: blur(8px);
   padding: 8px 16px;
   color: var(--color-gold-bright);
@@ -137,5 +137,5 @@
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  border: 1px solid rgba(232, 212, 181, 0.4);
+  border: 1px solid rgba(248, 197, 207, 0.4);
 }

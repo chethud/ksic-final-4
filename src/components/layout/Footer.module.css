@@ -1,8 +1,8 @@
 .footerContainer {
   background:
-    linear-gradient(180deg, #FAF6EF 0%, #E8D4B5 42%, #EADCC8 100%);
-  color: #3A2E24;
-  border-top: 1px solid rgba(58, 46, 36, 0.12);
+    linear-gradient(180deg, #FFF5F6 0%, #F8C5CF 42%, #FFE4E8 100%);
+  color: #4A0E1A;
+  border-top: 1px solid rgba(74, 14, 26, 0.12);
 }
 
 .footerWrap {
@@ -19,7 +19,7 @@
   letter-spacing: 0.22em !important;
   line-height: 1.4 !important;
   text-transform: uppercase;
-  color: #3A2E24 !important;
+  color: #4A0E1A !important;
 }
 
 .kicker::before {
@@ -29,7 +29,7 @@
   height: 1px;
   margin-right: 12px;
   vertical-align: middle;
-  background: #C4A35A;
+  background: #C41E3A;
 }
 
 .footerTopGrid {
@@ -38,7 +38,7 @@
   gap: 36px 40px;
   align-items: start;
   padding-bottom: 32px;
-  border-bottom: 1px solid rgba(58, 46, 36, 0.14);
+  border-bottom: 1px solid rgba(74, 14, 26, 0.14);
 }
 
 .brandColumn {
@@ -65,15 +65,19 @@
   object-fit: contain;
 }
 
+.brandLine {
+  white-space: nowrap;
+}
+
 .brandLegalName {
   margin: 8px 0 0;
-  max-width: 16rem;
+  max-width: none;
   font-family: var(--font-display), "Playfair Display", Georgia, serif !important;
   font-size: clamp(1.45rem, 2vw, 1.85rem) !important;
   font-weight: 500 !important;
   line-height: 1.15 !important;
   letter-spacing: -0.02em !important;
-  color: #3A2E24 !important;
+  color: #4A0E1A !important;
 }
 
 .brandNote {
@@ -84,7 +88,7 @@
   letter-spacing: 0.14em !important;
   line-height: 1.5 !important;
   text-transform: uppercase;
-  color: #51473F !important;
+  color: #6E2A38 !important;
 }
 
 .navColumnTitle {
@@ -95,7 +99,7 @@
   letter-spacing: 0.22em !important;
   line-height: 1.4 !important;
   text-transform: uppercase;
-  color: #7A6232 !important;
+  color: #A01830 !important;
 }
 
 .navColumnList {
@@ -109,7 +113,7 @@
 
 .navColumnList a,
 .officeCard a {
-  color: #3A2E24;
+  color: #4A0E1A;
   text-decoration: none;
   font-family: var(--font-display), "Playfair Display", Georgia, serif;
   font-size: 1.02rem;
@@ -118,31 +122,43 @@
 
 .navColumnList a:hover,
 .officeCard a:hover {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .navColumnList a:focus-visible,
 .officeCard a:focus-visible {
-  outline: 2px solid #3A2E24;
+  outline: 2px solid #4A0E1A;
   outline-offset: 3px;
 }
 
 .officeCard {
   margin: 0;
   padding: 22px 22px 20px;
-  background: rgba(250, 246, 239, 0.72);
-  border: 1px solid rgba(58, 46, 36, 0.1);
+  background: rgba(255, 245, 246, 0.72);
+  border: 1px solid rgba(74, 14, 26, 0.1);
   font-style: normal;
 }
 
 .officeAddress,
-.officeLine {
+.officeLine,
+.officeAddress a,
+.officeLine a {
   margin: 0;
-  font-family: var(--font-display), "Playfair Display", Georgia, serif !important;
-  font-size: 0.98rem !important;
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
   font-weight: 400 !important;
-  line-height: 1.65 !important;
-  color: #3A2E24 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  color: #5C2432 !important;
+}
+
+.officePhones,
+.officePhones a {
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
 }
 
 .officeLine {
@@ -166,7 +182,7 @@
   font-weight: 400 !important;
   letter-spacing: 0.04em !important;
   line-height: 1.5 !important;
-  color: #51473F !important;
+  color: #6E2A38 !important;
 }
 
 .contactCin {

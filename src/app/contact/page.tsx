@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Building2, Clock, Factory, Mail, MapPin, Phone } from "lucide-react";
 import { INSTITUTIONAL_OVERVIEW } from "@/data/institution";
+import { SHOWROOMS_DATA, type ShowroomLocation } from "@/data/showrooms";
 import styles from "./Contact.module.css";
 
 const ENQUIRY_TYPES = [
@@ -18,6 +19,7 @@ const REGIONS = ["Bengaluru", "Mysuru", "Channapatna", "Davanagere", "Hyderabad"
 
 export default function ContactPage() {
   const office = INSTITUTIONAL_OVERVIEW.headOffice;
+  const [storeQuery, setStoreQuery] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -26,6 +28,23 @@ export default function ContactPage() {
     preferredCity: REGIONS[0],
     message: "",
   });
+
+  const storeMatches = (() => {
+    const query = storeQuery.trim().toLowerCase();
+    if (!query) return [];
+    const compact = query.replace(/\s+/g, "");
+    return SHOWROOMS_DATA.filter((showroom) => {
+      const haystack = [showroom.name, showroom.city, showroom.address, showroom.pincode, showroom.type]
+        .join(" ")
+        .toLowerCase();
+      return haystack.includes(query) || showroom.pincode.replace(/\s+/g, "").includes(compact);
+    });
+  })();
+
+  function mapsHref(showroom: ShowroomLocation) {
+    const query = `${showroom.name}, ${showroom.address}, ${showroom.city} ${showroom.pincode}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  }
 
   function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
@@ -87,6 +106,51 @@ export default function ContactPage() {
               </div>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section className={styles.locator} aria-label="Find a KSIC showroom">
+        <div className={`container-institutional ${styles.locatorInner}`}>
+          <p className={styles.eyebrow}>Store locator</p>
+          <h2 className={styles.locatorTitle}>Find a showroom</h2>
+          <form className={styles.locatorForm} role="search" onSubmit={(event) => event.preventDefault()}>
+            <label className={styles.locatorLabel} htmlFor="store-query">
+              City, area, or pincode
+            </label>
+            <input
+              id="store-query"
+              type="search"
+              value={storeQuery}
+              placeholder="Bengaluru, Jayanagar, or 560011"
+              onChange={(event) => setStoreQuery(event.target.value)}
+            />
+          </form>
+          {storeQuery.trim() ? (
+            storeMatches.length > 0 ? (
+              <ul className={styles.locatorResults}>
+                {storeMatches.map((showroom) => (
+                  <li key={showroom.id}>
+                    <a
+                      className={styles.locatorResult}
+                      href={mapsHref(showroom)}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <MapPin size={16} strokeWidth={1.5} aria-hidden />
+                      <span>
+                        <strong>{showroom.name}</strong>
+                        <small>
+                          {showroom.address}, {showroom.city} {showroom.pincode}
+                        </small>
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className={styles.locatorEmpty}>No KSIC showrooms match that search.</p>
+            )
+          ) : null}
         </div>
       </section>
 

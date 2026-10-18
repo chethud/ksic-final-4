@@ -11,9 +11,9 @@
 
 .utilityBar {
   height: 34px;
-  background: #EADCC8;
-  color: #51473F;
-  border-bottom: 1px solid #E8D4B5;
+  background: #FFE4E8;
+  color: #6E2A38;
+  border-bottom: 1px solid #F8C5CF;
   transition: height 220ms ease, opacity 180ms ease;
 }
 
@@ -41,7 +41,7 @@
   gap: 12px;
   min-width: 0;
   margin: 0;
-  color: #51473F;
+  color: #6E2A38;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 11.5px !important;
   font-weight: 500 !important;
@@ -60,14 +60,14 @@
   width: 12px;
   height: 12px;
   flex-shrink: 0;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .utilitySep {
   width: 1px;
   height: 12px;
   flex-shrink: 0;
-  background: #E8D4B5;
+  background: #F8C5CF;
 }
 
 .utilityLinks {
@@ -78,7 +78,7 @@
 }
 
 .utilityLink {
-  color: #51473F;
+  color: #6E2A38;
   font-family: "DM Sans", "Avenir Next", system-ui, sans-serif;
   font-size: 11.5px;
   font-weight: 500;
@@ -91,15 +91,15 @@
 .utilityLink+.utilityLink {
   margin-left: 14px;
   padding-left: 14px;
-  border-left: 1px solid #E8D4B5;
+  border-left: 1px solid #F8C5CF;
 }
 
 .utilityLink:hover {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .utilityLink:focus-visible {
-  outline: 2px solid #3A2E24;
+  outline: 2px solid #4A0E1A;
   outline-offset: 3px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .storeLocatorButton:focus-visible {
-  outline: 1px solid #3A2E24;
+  outline: 1px solid #4A0E1A;
   outline-offset: 3px;
 }
 
@@ -134,14 +134,14 @@
   max-height: min(70vh, 520px);
   overflow: auto;
   padding: 16px 0 8px;
-  border: 1px solid #E8D4B5;
-  background: #FAF6EF;
+  border: 1px solid #F8C5CF;
+  background: #FFF5F6;
   text-align: left;
 }
 
 .storePanelTitle {
   margin: 0 18px 8px;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 16px;
 }
@@ -157,27 +157,27 @@
   flex-direction: column;
   gap: 2px;
   padding: 8px 18px;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 15px;
   text-decoration: none;
 }
 
 .storeLink small {
-  color: #51473F;
+  color: #6E2A38;
   font-family: "DM Sans", var(--font-sans);
   font-size: 12px;
   line-height: 1.4;
 }
 
 .storeLink:hover {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .storeDirectoryLink {
   display: inline-block;
   margin: 8px 18px 10px;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "DM Sans", var(--font-sans);
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -197,7 +197,7 @@
 
 .navMainSolid {
   background: #FFFFFF;
-  box-shadow: 0 1px 0 rgba(58, 46, 36, 0.1);
+  box-shadow: 0 1px 0 rgba(74, 14, 26, 0.1);
 }
 
 .brandLink {
@@ -241,7 +241,7 @@
   padding: 8px 0 10px;
   border: 0;
   background: transparent;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "Playfair Display", Georgia, serif !important;
   font-size: 15px !important;
   font-weight: 400 !important;
@@ -255,11 +255,11 @@
 
 .navTrigger:hover,
 .navPlain:hover {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .navActive {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .navActive::after {
@@ -269,7 +269,7 @@
   right: 0;
   bottom: 2px;
   height: 1px;
-  background: #3A2E24;
+  background: #B01030;
 }
 
 .navTrigger:focus-visible,
@@ -280,7 +280,7 @@
 .dropdownLink:focus-visible,
 .drawerLink:focus-visible,
 .drawerChildLink:focus-visible {
-  outline: 1px solid #3A2E24;
+  outline: 1px solid #4A0E1A;
   outline-offset: 3px;
 }
 
@@ -302,16 +302,16 @@
   flex-direction: column;
   min-width: 196px;
   padding: 10px 0;
-  border: 1px solid rgba(58, 46, 36, 0.1);
+  border: 1px solid rgba(74, 14, 26, 0.1);
   border-top: 0;
   background: #FFFFFF;
-  box-shadow: 0 10px 24px rgba(58, 46, 36, 0.08);
+  box-shadow: 0 10px 24px rgba(74, 14, 26, 0.08);
 }
 
 .dropdownLink {
   display: block;
   padding: 8px 18px;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 15px;
   font-weight: 400;
@@ -319,7 +319,8 @@
 }
 
 .dropdownLink:hover {
-  color: #3A2E24;
+  background: #B01030;
+  color: #FFFFFF;
 }
 
 .iconRow {
@@ -335,7 +336,7 @@
   content: "";
   width: 1px;
   height: 22px;
-  background: rgba(58, 46, 36, 0.22);
+  background: rgba(74, 14, 26, 0.22);
 }
 
 .iconButton {
@@ -347,13 +348,13 @@
   padding: 0;
   border: 0;
   background: transparent;
-  color: #3A2E24;
+  color: #4A0E1A;
   text-decoration: none;
   cursor: pointer;
 }
 
 .iconButton:hover {
-  color: #3A2E24;
+  color: #4A0E1A;
   background: transparent;
 }
 
@@ -372,7 +373,7 @@
   height: 15px;
   padding: 0 3px;
   border-radius: 999px;
-  background: #3A2E24;
+  background: #B01030;
   color: #FFFFFF;
   font-family: "Playfair Display", Georgia, serif !important;
   font-size: 9px !important;
@@ -388,8 +389,8 @@
   z-index: 6;
   width: min(300px, 72vw);
   padding: 14px 0 8px;
-  border: 1px solid #E8D4B5;
-  background: #FAF6EF;
+  border: 1px solid #F8C5CF;
+  background: #FFF5F6;
 }
 
 .searchInput {
@@ -398,10 +399,10 @@
   margin: 0 14px;
   padding: 0 0 6px;
   border: 0;
-  border-bottom: 1px solid #E8D4B5;
+  border-bottom: 1px solid #F8C5CF;
   border-radius: 0;
   background: transparent;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "Playfair Display", Georgia, serif !important;
   font-size: 15px !important;
   font-weight: 400 !important;
@@ -410,7 +411,7 @@
 }
 
 .searchInput:focus {
-  outline: 2px solid rgba(58, 46, 36, 0.28);
+  outline: 2px solid rgba(74, 14, 26, 0.28);
   outline-offset: 1px;
 }
 
@@ -428,24 +429,24 @@
   flex-direction: column;
   gap: 2px;
   padding: 8px 16px;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 15px;
   text-decoration: none;
 }
 
 .searchResult small {
-  color: #51473F;
+  color: #6E2A38;
   font-size: 12px;
 }
 
 .searchResult:hover {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .searchEmpty {
   padding: 10px;
-  color: #51473F;
+  color: #6E2A38;
   font-family: "DM Sans", sans-serif;
   font-size: 13px;
 }
@@ -522,7 +523,7 @@
     height: 44px;
     border: 0;
     background: transparent;
-    color: #3A2E24;
+    color: #4A0E1A;
     cursor: pointer;
   }
 
@@ -531,7 +532,7 @@
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background: rgba(20, 12, 10, 0.46);
+    background: rgba(42, 8, 16, 0.46);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -553,8 +554,8 @@
     z-index: 1001;
     flex-direction: column;
     width: min(88vw, 380px);
-    background: #FAF6EF;
-    border-left: 1px solid #E8D4B5;
+    background: #FFF5F6;
+    border-left: 1px solid #F8C5CF;
     transform: translateX(100%);
     transition: transform 280ms ease;
     overflow-y: auto;
@@ -569,7 +570,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 14px 16px;
-    border-bottom: 1px solid rgba(81, 71, 63, 0.16);
+    border-bottom: 1px solid rgba(110, 42, 56, 0.16);
   }
 
   .drawerLogo {
@@ -585,8 +586,8 @@
     height: 36px;
     border: 0;
     border-radius: 999px;
-    background: #EADCC8;
-    color: #3A2E24;
+    background: #FFE4E8;
+    color: #4A0E1A;
     cursor: pointer;
   }
 
@@ -597,7 +598,7 @@
   }
 
   .drawerGroup {
-    border-bottom: 1px solid #E8D4B5;
+    border-bottom: 1px solid #F8C5CF;
     padding-bottom: 12px;
   }
 
@@ -605,7 +606,7 @@
     display: inline-block;
     margin: 16px 24px 4px;
     padding: 0 0 4px;
-    color: #3A2E24;
+    color: #4A0E1A;
     font-family: "Playfair Display", Georgia, serif;
     font-size: 22px;
     font-weight: 400;
@@ -613,8 +614,8 @@
   }
 
   .drawerLinkActive {
-    color: #3A2E24;
-    box-shadow: inset 0 -1px 0 #3A2E24;
+    color: #4A0E1A;
+    box-shadow: inset 0 -1px 0 #4A0E1A;
   }
 
   .drawerChildren {
@@ -624,11 +625,16 @@
   }
 
   .drawerChildLink {
-    padding: 8px 0;
-    color: #3A2E24;
+    padding: 8px 12px;
+    color: #4A0E1A;
     font-family: "Playfair Display", Georgia, serif;
     font-size: 16px;
     text-decoration: none;
+  }
+
+  .drawerChildLink:hover {
+    background: #B01030;
+    color: #FFFFFF;
   }
 
   .drawerFooter {
@@ -636,11 +642,11 @@
     gap: 16px;
     margin-top: auto;
     padding: 16px 20px 24px;
-    border-top: 1px solid rgba(81, 71, 63, 0.16);
+    border-top: 1px solid rgba(110, 42, 56, 0.16);
   }
 
   .drawerFooter a {
-    color: #51473F;
+    color: #6E2A38;
     font-family: "DM Sans", sans-serif;
     font-size: 13px;
     text-decoration: none;

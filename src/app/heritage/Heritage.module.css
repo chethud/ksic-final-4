@@ -1,8 +1,8 @@
 .page {
   --heritage-offset: var(--site-header-offset);
   padding-top: var(--heritage-offset);
-  background: #FAF6EF;
-  color: #3A2E24;
+  background: #FFF5F6;
+  color: #4A0E1A;
 }
 
 .track {
@@ -15,7 +15,7 @@
   position: relative;
   height: auto;
   overflow: hidden;
-  background: #FAF6EF;
+  background: #FFF5F6;
 }
 
 .stickyFixed {
@@ -83,18 +83,18 @@
   width: 10px;
   height: 10px;
   padding: 0;
-  border: 1px solid #3A2E24;
+  border: 1px solid #4A0E1A;
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
 }
 
 .dotActive {
-  background: #3A2E24;
+  background: #B01030;
 }
 
 .dot:focus-visible {
-  outline: 2px solid #3A2E24;
+  outline: 2px solid #4A0E1A;
   outline-offset: 3px;
 }
 
@@ -111,21 +111,21 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .scrollTrack {
   position: relative;
   width: 112px;
   height: 1px;
-  background: #E8D4B5;
+  background: #F8C5CF;
   overflow: hidden;
 }
 
 .scrollFill {
   position: absolute;
   inset: 0;
-  background: #3A2E24;
+  background: #B01030;
   transform-origin: left center;
 }
 
@@ -147,20 +147,20 @@
   font-weight: 500;
   letter-spacing: 0.26em;
   text-transform: uppercase;
-  color: #7A6232;
+  color: #A01830;
 }
 
 .eyebrow::before {
   content: "";
   width: 6px;
   height: 6px;
-  background: #C4A35A;
+  background: #C41E3A;
   transform: rotate(45deg);
 }
 
 .hero {
   padding: 28px 0 56px;
-  background: #FAF6EF;
+  background: #FFF5F6;
 }
 
 .heroGrid,
@@ -182,7 +182,7 @@
   font-weight: 500;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #3A2E24;
+  color: #4A0E1A;
   line-height: 0.98;
 }
 
@@ -193,7 +193,7 @@
 .heroTitle span,
 .sectionTitle span,
 .timelineHeader .sectionTitle span {
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .heroLead,
@@ -201,14 +201,27 @@
 .quote {
   font-family: var(--font-serif), "Cormorant Garamond", Georgia, serif;
   font-style: italic;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .heroLead {
   max-width: 38rem;
   margin: 22px 0 0;
-  font-size: clamp(1.12rem, 1.6vw, 1.35rem);
-  line-height: 1.5;
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  color: #4A0E1A !important;
+}
+
+.narrative .body {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  color: #4A0E1A !important;
 }
 
 .heroMedia,
@@ -218,7 +231,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 3px;
-  background: #EADCC8;
+  background: #FFE4E8;
 }
 
 .heroMedia {
@@ -249,7 +262,7 @@
 }
 
 .narrative {
-  background: #EADCC8;
+  background: #FFE4E8;
 }
 
 .panel.hero,
@@ -259,7 +272,7 @@
 
 .narrativeAlt,
 .timeline {
-  background: #FAF6EF;
+  background: #FFF5F6;
 }
 
 .sectionTitle {
@@ -275,16 +288,16 @@
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.7;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .quote {
   margin: 28px 0 0;
   padding: 4px 0 4px 18px;
-  border-left: 2px solid #3A2E24;
+  border-left: 2px solid #4A0E1A;
   font-size: 1.2rem;
   line-height: 1.45;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .portrait {
@@ -329,7 +342,7 @@
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 1;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .statRow span,
@@ -340,12 +353,12 @@
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .statRow p + p {
   padding-left: 28px;
-  border-left: 1px solid #E8D4B5;
+  border-left: 1px solid #F8C5CF;
 }
 
 .timelineHeader {
@@ -375,10 +388,10 @@
   flex: 0 0 auto;
   min-height: 40px;
   padding: 0 16px;
-  border: 1px solid #E8D4B5;
+  border: 1px solid #F8C5CF;
   border-radius: 999px;
   background: transparent;
-  color: #3A2E24;
+  color: #4A0E1A;
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.75rem;
   font-weight: 500;
@@ -389,14 +402,14 @@
 
 .yearTab:hover,
 .yearTabActive {
-  background: #3A2E24;
-  border-color: #3A2E24;
+  background: #B01030;
+  border-color: #4A0E1A;
   color: #FFFFFF;
 }
 
 .yearTab:focus-visible,
 .cta:focus-visible {
-  outline: 2px solid #3A2E24;
+  outline: 2px solid #4A0E1A;
   outline-offset: 3px;
 }
 
@@ -428,7 +441,7 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #7A6232;
+  color: #A01830;
 }
 
 .epochYear {
@@ -436,7 +449,7 @@
   font-family: var(--font-display), "Playfair Display", Georgia, serif;
   font-size: clamp(2.4rem, 4vw, 3.4rem);
   line-height: 0.9;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .epochTitle {
@@ -445,7 +458,7 @@
   font-size: clamp(1.45rem, 2vw, 1.9rem);
   font-weight: 500;
   line-height: 1.15;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .epochDescription {
@@ -453,18 +466,18 @@
   font-family: var(--font-dm), "DM Sans", sans-serif;
   font-size: 0.98rem;
   line-height: 1.65;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .epochSignificance {
   margin: 0;
   padding-left: 16px;
-  border-left: 2px solid #3A2E24;
+  border-left: 2px solid #4A0E1A;
   font-family: var(--font-serif), "Cormorant Garamond", Georgia, serif;
   font-style: italic;
   font-size: 1.08rem;
   line-height: 1.45;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .epochSignificance span {
@@ -476,7 +489,7 @@
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .epochMeta {
@@ -486,7 +499,7 @@
   align-items: flex-end;
   margin-top: 22px;
   padding-top: 16px;
-  border-top: 1px solid #E8D4B5;
+  border-top: 1px solid #F8C5CF;
 }
 
 .provenance {
@@ -510,7 +523,7 @@
   gap: 10px;
   padding: 13px 22px;
   border-radius: 999px;
-  background: #3A2E24;
+  background: #B01030;
   color: #FFFFFF;
   text-decoration: none;
   font-family: var(--font-dm), "DM Sans", sans-serif;
@@ -522,7 +535,7 @@
 }
 
 .cta:hover {
-  background: #2A211A;
+  background: #8B0C24;
 }
 
 @media (max-width: 900px) {

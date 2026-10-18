@@ -18,7 +18,7 @@
 .authenticityNotice {
   padding: 28px;
   background-color: var(--color-bg-secondary);
-  border: 1px solid rgba(58, 46, 36, 0.12);
+  border: 1px solid rgba(74, 14, 26, 0.12);
 }
 
 .controlsBar {
@@ -43,7 +43,7 @@
   padding: 12px 18px;
   font-size: 0.88rem;
   font-family: var(--font-sans);
-  border: 1px solid #E8D4B5;
+  border: 1px solid #F8C5CF;
   border-radius: 999px;
   background-color: var(--color-bg-paper);
   width: 280px;
@@ -65,15 +65,15 @@
   gap: 20px;
   min-height: 320px;
   padding: 28px 24px 24px;
-  border: 1px solid #C4A35A;
+  border: 1px solid #C41E3A;
   border-radius: 28px;
-  background: #FAF6EF;
+  background: #FFF5F6;
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 30px rgba(81, 71, 63, 0.06);
+  box-shadow: 0 14px 30px rgba(110, 42, 56, 0.06);
 }
 
 .kicker {
@@ -82,7 +82,7 @@
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-weight: 600;
-  color: #7A6232;
+  color: #A01830;
 }
 
 .cardTitle {
@@ -91,14 +91,14 @@
   font-size: 1.45rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .address {
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .cardFoot {
@@ -106,7 +106,7 @@
   flex-direction: column;
   gap: 10px;
   padding-top: 16px;
-  border-top: 1px solid rgba(196, 163, 90, 0.4);
+  border-top: 1px solid rgba(196, 30, 58, 0.4);
 }
 
 .meta {
@@ -116,13 +116,13 @@
   margin: 0;
   font-size: 0.82rem;
   line-height: 1.45;
-  color: #51473F;
+  color: #6E2A38;
 }
 
 .meta svg {
   flex-shrink: 0;
   margin-top: 2px;
-  color: #3A2E24;
+  color: #4A0E1A;
 }
 
 .mapButton {
@@ -135,7 +135,7 @@
   margin-top: 8px;
   padding: 0 18px;
   border-radius: 999px;
-  background: #3A2E24;
+  background: #B01030;
   color: #FFFFFF;
   font-size: 0.7rem;
   font-weight: 600;
@@ -146,11 +146,11 @@
 }
 
 .mapButton:hover {
-  background: #2A211A;
+  background: #8B0C24;
 }
 
 .mapButton:focus-visible {
-  outline: 2px solid #C4A35A;
+  outline: 2px solid #C41E3A;
   outline-offset: 3px;
 }
 

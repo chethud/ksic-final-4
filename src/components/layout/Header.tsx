@@ -24,8 +24,8 @@ const NAV_ITEMS: NavItem[] = [
     label: "Mysore Silk",
     href: "/heritage",
     children: [
-      { label: "The Story", href: "/heritage" },
-      { label: "The Craft", href: "/craft" },
+      { label: "Our Story", href: "/heritage" },
+      { label: "How It Is Made", href: "/craft" },
       { label: "Authenticity", href: "/authenticity" },
     ],
   },
@@ -41,7 +41,7 @@ const NAV_ITEMS: NavItem[] = [
   {
     id: "journal",
     label: "Journal",
-    href: "/heritage",
+    href: "/journal",
     children: [
       { label: "Stories", href: "/heritage" },
       { label: "Culture", href: "/heritage#timeline" },
@@ -58,6 +58,7 @@ const NAV_ITEMS: NavItem[] = [
       { label: "Bestsellers", href: "/bestsellers" },
     ],
   },
+  { id: "contact", label: "Contact Us", href: "/contact" },
 ];
 
 export const Header: React.FC = () => {
@@ -339,13 +340,17 @@ export const Header: React.FC = () => {
         <nav className={styles.drawerNav}>
           {NAV_ITEMS.map((item) => (
             <div key={item.id} className={styles.drawerGroup}>
-              <Link
-                href={item.href}
-                className={`${styles.drawerLink} ${isActive(item.href) ? styles.drawerLinkActive : ""}`}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {item.label}
-              </Link>
+              {item.children ? (
+                <p className={styles.drawerLink}>{item.label}</p>
+              ) : (
+                <Link
+                  href={item.href}
+                  className={`${styles.drawerLink} ${isActive(item.href) ? styles.drawerLinkActive : ""}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              )}
               {item.children && (
                 <div className={styles.drawerChildren}>
                   {item.children.map((child) => (

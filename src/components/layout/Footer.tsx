@@ -15,7 +15,7 @@ const EXPLORE_LINKS = [
 
 const HOUSE_LINKS = [
   { label: "About KSIC", href: "/institution" },
-  { label: "Our Stores", href: "/stores" },
+  { label: "Store Locator", href: "/stores" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -46,7 +46,7 @@ export const Footer: React.FC = () => {
               />
             </div>
             <p className={styles.brandLegalName}>
-              Karnataka Silk Industries
+              <span className={styles.brandLine}>Karnataka Silk Industries</span>
               <br />
               Corporation Limited
             </p>
@@ -84,7 +84,7 @@ export const Footer: React.FC = () => {
               <br />
               Bengaluru — 560 001, Karnataka
             </p>
-            <p className={styles.officeLine}>
+            <p className={`${styles.officeLine} ${styles.officePhones}`}>
               <a href="tel:+918025586402">+91 80 25586402</a>
               <span aria-hidden="true"> · </span>
               <a href="tel:+918025586550">25586550</a>
